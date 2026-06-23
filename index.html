@@ -1,77 +1,197 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Akshith Saini - DevOps Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps Training Portfolio | Akshit Saini</title><style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: #ffffff;
-            text-align: center;
-            padding: 50px;
-        }
+body{
+    background:#f4f7fb;
+    color:#222;
+    line-height:1.6;
+}
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #1e293b;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.5);
-        }
+header{
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    color:white;
+    text-align:center;
+    padding:90px 20px;
+}
 
-        h1 {
-            color: #38bdf8;
-        }
+header h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
 
-        .tag {
-            background: #22c55e;
-            display: inline-block;
-            padding: 5px 10px;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
+.name{
+    font-size:30px;
+    font-weight:600;
+}
 
-        p {
-            line-height: 1.6;
-        }
+.degree{
+    margin-top:8px;
+    font-size:18px;
+}
 
-        .footer {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #94a3b8;
-        }
-    </style>
-</head>
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
+}
 
-<body>
+.section{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
 
-<div class="container">
+.section h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
 
-    <h1>Hi, I'm Akshith Saini 🚀</h1>
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
 
-    <div class="tag">DevOps Beginner Project</div>
+.card{
+    background:#eef4ff;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    font-weight:600;
+}
+
+.project{
+    background:#fafafa;
+    border-left:5px solid #2563eb;
+    padding:20px;
+    margin-top:15px;
+}
+
+.workflow{
+    background:#eef4ff;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style></head><body><header>
+    <h1>DevOps Training Portfolio</h1>
+    <div class="name">Akshit Saini</div>
+    <div class="degree">B.Tech CSE (AI/ML) Student</div>
+</header><div class="container"><div class="section">
+    <h2>About Me</h2>
 
     <p>
-        This project demonstrates a simple CI/CD pipeline using 
-        <b>GitHub, Jenkins, Docker, and AWS EC2</b>.
+        Hello, I am Akshit Saini, a B.Tech CSE (AI/ML) 1st year student.
+        I recently completed basic DevOps training where I explored cloud computing,
+        deployment and automation concepts.
     </p>
+
+    <br>
 
     <p>
-        The application is automatically built and deployed using Jenkins 
-        and runs inside a Docker container on an AWS EC2 instance.
+        During the training, I worked with AWS, GitHub, Jenkins, Docker,
+        Apache Tomcat and Linux. I learned how applications are stored,
+        built, deployed and managed using modern DevOps tools.
     </p>
-
-    <h3>Tools Used</h3>
-    <p>Git | GitHub | Jenkins | Docker | AWS EC2 | Nginx</p>
-
-    <div class="footer">
-        Built as part of DevOps Training Project
-    </div>
-
 </div>
 
-</body>
+<div class="section">
+    <h2>Training Highlights</h2>
+
+    <ul>
+        <li>Created and managed AWS EC2 instances.</li>
+        <li>Configured Security Groups and networking basics.</li>
+        <li>Worked with IAM users and permissions.</li>
+        <li>Created and managed Jenkins jobs.</li>
+        <li>Installed and managed Jenkins plugins.</li>
+        <li>Built Docker images and ran Docker containers.</li>
+        <li>Worked with Apache Tomcat deployment.</li>
+        <li>Used Git and GitHub for version control.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Technologies Explored During Training</h2>
+
+    <div class="grid">
+        <div class="card">AWS EC2</div>
+        <div class="card">AWS VPC</div>
+        <div class="card">AWS S3</div>
+        <div class="card">IAM Users</div>
+        <div class="card">Load Balancer</div>
+        <div class="card">Git & GitHub</div>
+        <div class="card">Jenkins</div>
+        <div class="card">Docker</div>
+        <div class="card">Apache Tomcat</div>
+        <div class="card">Maven</div>
+        <div class="card">Kubernetes (Introduction)</div>
+        <div class="card">Linux Basics</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Project: Portfolio Website Deployment on AWS</h2>
+
+    <div class="project">
+
+        <p><strong>GitHub</strong> - Used to store and manage project source code.</p>
+        <br>
+
+        <p><strong>Jenkins</strong> - Used to pull source code and build the project.</p>
+        <br>
+
+        <p><strong>Docker</strong> - Used to containerize the website and run it in a Docker container.</p>
+        <br>
+
+        <p><strong>AWS EC2</strong> - Used as the cloud server hosting Jenkins, Docker and the deployed website.</p>
+        <br>
+
+        <p><strong>Linux</strong> - Used for server administration and deployment commands.</p>
+
+        <div class="workflow">
+            GitHub → Jenkins → Docker → AWS EC2 → Live Website
+        </div>
+
+    </div>
+</div>
+
+<div class="section">
+    <h2>Achievements</h2>
+
+    <ul>
+        <li>Successfully deployed a portfolio website on AWS EC2.</li>
+        <li>Built and ran a Dockerized web application.</li>
+        <li>Integrated GitHub with Jenkins for project builds.</li>
+        <li>Completed hands-on DevOps training labs.</li>
+    </ul>
+</div>
+
+</div><footer>
+    <p>DevOps Training Portfolio | Akshit Saini</p>
+</footer></body>
 </html>
